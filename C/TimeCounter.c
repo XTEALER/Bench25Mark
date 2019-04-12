@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <time.h>
 
-// this program uses the function described here https://www.gnu.org/software/libc/manual/html_node/CPU-Time.html
-// use it as you want to measure functions or anything else you like
+/* this program uses the function described here: https://www.gnu.org/software/libc/manual/html_node/CPU-Time.html
+use it as you want to measure functions or anything else you like*/
 
+// explicit declaration of function types
+int srand();
+int rand();
 int main(void) {
 	int i, number_count = 25000000;
 	double total_time;
