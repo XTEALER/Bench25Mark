@@ -2,7 +2,6 @@
 
 Contact Me:humberto0118@gmail.com
 
-My Site: [xtealer](http://xtealer.zapto.org.)
 
 
 
