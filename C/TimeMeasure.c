@@ -36,6 +36,6 @@ int main(void) {
 	//time count stops 
 
 	total_time = end - start;
-	printf("\n\n>>> %d SECONDS TAKEN! \n\n", total_time);
+	printf("\n\n>>> %d SECONDS TAKEN (C)! \n\n", total_time);
 	return 0;
 }
