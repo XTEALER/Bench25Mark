@@ -1,6 +1,5 @@
 import java.util.concurrent.ThreadLocalRandom;
 import java.time.Instant;
-import java.util.Random;
 
 /* (long) generator from: https://stackoverflow.com/questions/46737108/11-digit-random-number-in-java/
 Program to measure elapsed Runtime of some code.
@@ -27,7 +26,7 @@ class TimeMeasure
     // timer stops
     
     long timeElapsed = endTime - startTime;
-		System.out.println("\n>>> " + timeElapsed + " SECONDS TAKEN!");
+		System.out.println("\n>>> " + timeElapsed + " SECONDS TAKEN (JAVA)!");
   }
 }
 
